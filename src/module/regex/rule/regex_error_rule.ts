@@ -1,7 +1,6 @@
 import type { Linter } from 'eslint';
 
-const regexErrorRule: Linter.RulesRecord =
-{
+const regexErrorRule: Linter.RulesRecord = {
   'regex/no-contradiction-with-assertion': 'error',
   'regex/no-dupe-disjunctions': 'error',
   'regex/no-empty-alternative': 'error',
@@ -20,8 +19,7 @@ const regexErrorRule: Linter.RulesRecord =
   'regex/no-super-linear-backtracking': 'error',
   'regex/no-useless-assertions': 'error',
   'regex/no-useless-backreference': 'error',
-  'regex/no-useless-dollar-replacements': 'error',
-  'regex/strict': 'error'
+  'regex/no-useless-dollar-replacements': 'error'
 };
 
 export { regexErrorRule };

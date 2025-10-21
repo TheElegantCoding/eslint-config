@@ -1,7 +1,6 @@
 import type { Linter } from 'eslint';
 
-const regexDisabledRule: Linter.RulesRecord =
-{
+const regexDisabledRule: Linter.RulesRecord = {
   'regex/grapheme-string-literal': 'off',
   'regex/hexadecimal-escape': 'off',
   'regex/no-control-character': 'off',
@@ -18,6 +17,7 @@ const regexDisabledRule: Linter.RulesRecord =
   'regex/require-unicode-sets-regexp': 'off',
   'regex/sort-alternatives': 'off',
   'regex/sort-character-class-elements': 'off',
+  'regex/strict': 'off',
   'regex/unicode-escape': 'off',
   'regex/unicode-property': 'off'
 };
