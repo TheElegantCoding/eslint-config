@@ -3,8 +3,7 @@ import { error } from '@module/javascript/rule/error';
 
 import type { Linter } from 'eslint';
 
-const typescriptStrictTypedChecked: Linter.RulesRecord =
-{
+const typescriptStrictTypedChecked: Linter.RulesRecord = {
   'no-implied-eval': 'off',
   'no-throw-literal': 'off',
   'prefer-promise-reject-errors': 'off',
@@ -16,18 +15,19 @@ const typescriptStrictTypedChecked: Linter.RulesRecord =
   'ts/no-duplicate-type-constituents': 'error',
   'ts/no-floating-promises': 'error',
   'ts/no-for-in-array': 'error',
+  'ts/strict-boolean-expressions': ['error', {
+    allowString: false,
+    allowNumber: false,
+    allowNullableObject: true
+  }],
   'ts/no-implied-eval': error['no-implied-eval'] ?? 'off',
   'ts/no-meaningless-void-operator': 'error',
-  'ts/no-misused-promises':
-  [
-    'error',
-    {
-      checksVoidReturn: {
-        arguments: false,
-        attributes: false
-      }
+  'ts/no-misused-promises': ['error', {
+    checksVoidReturn: {
+      arguments: false,
+      attributes: false
     }
-  ],
+  }],
   'ts/no-mixed-enums': 'error',
   'ts/no-redundant-type-constituents': 'error',
   'ts/no-unnecessary-boolean-literal-compare': 'error',
