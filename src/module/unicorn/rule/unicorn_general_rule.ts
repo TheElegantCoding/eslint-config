@@ -1,7 +1,6 @@
 import type { Linter } from 'eslint';
 
-const unicornGeneralRule: Linter.RulesRecord =
-{
+const unicornGeneralRule: Linter.RulesRecord = {
   'unicorn/better-regex': 'error',
   'unicorn/catch-error-name': 'error',
   'unicorn/consistent-assert': 'error',
@@ -14,19 +13,14 @@ const unicornGeneralRule: Linter.RulesRecord =
   'unicorn/error-message': 'error',
   'unicorn/escape-case': 'error',
   'unicorn/explicit-length-check': 'error',
-  'unicorn/filename-case':
-  [
-    'error',
-    {
-      cases:
-        {
-          camelCase: false,
-          kebabCase: false,
-          pascalCase: false,
-          snakeCase: true
-        }
+  'unicorn/filename-case': ['error', {
+    cases: {
+      camelCase: false,
+      kebabCase: false,
+      pascalCase: false,
+      snakeCase: true
     }
-  ],
+  }],
   'unicorn/new-for-builtins': 'error',
   'unicorn/no-abusive-eslint-disable': 'error',
   'unicorn/no-accessor-recursion': 'error',
@@ -79,7 +73,7 @@ const unicornGeneralRule: Linter.RulesRecord =
   'unicorn/no-zero-fractions': 'error',
   'unicorn/number-literal-case': 'error',
   'unicorn/prefer-add-event-listener': 'error',
-  'unicorn/prefer-array-find': [ 'error', { checkFromLast: true } ],
+  'unicorn/prefer-array-find': ['error', { checkFromLast: true }],
   'unicorn/prefer-array-flat-map': 'error',
   'unicorn/prefer-array-index-of': 'error',
   'unicorn/prefer-array-some': 'error',
@@ -108,13 +102,7 @@ const unicornGeneralRule: Linter.RulesRecord =
   'unicorn/prefer-negative-index': 'error',
   'unicorn/prefer-node-protocol': 'error',
   'unicorn/prefer-number-properties': 'error',
-  'unicorn/prefer-object-from-entries':
-  [
-    'error',
-    {
-      functions: [ 'fromPairs', 'R.fromPairs' ]
-    }
-  ],
+  'unicorn/prefer-object-from-entries': ['error', { functions: ['fromPairs', 'R.fromPairs'] }],
   'unicorn/prefer-optional-catch-binding': 'error',
   'unicorn/prefer-prototype-methods': 'error',
   'unicorn/prefer-query-selector': 'error',
@@ -133,27 +121,23 @@ const unicornGeneralRule: Linter.RulesRecord =
   'unicorn/prefer-ternary': 'error',
   'unicorn/prefer-top-level-await': 'error',
   'unicorn/prefer-type-error': 'error',
-  'unicorn/prevent-abbreviations':
-  [
-    'error',
-    {
-      allowList: {
-        args: true,
-        ctx: true,
-        props: true,
-        Props: true,
-        req: true,
-        res: true
-      },
-      checkShorthandProperties: true,
-      ignore: [
-        String.raw `\.e2e$`,
-        String.raw `\.e2e-spec$`,
-        'env.d',
-        'ImportMetaEnv'
-      ]
-    }
-  ],
+  'unicorn/prevent-abbreviations': ['error', {
+    allowList: {
+      args: true,
+      ctx: true,
+      props: true,
+      Props: true,
+      req: true,
+      res: true
+    },
+    checkShorthandProperties: true,
+    ignore: [
+      String.raw`\.e2e$`,
+      String.raw`\.e2e-spec$`,
+      'env.d',
+      'ImportMetaEnv'
+    ]
+  }],
   'unicorn/relative-url-style': 'error',
   'unicorn/require-array-join-separator': 'error',
   'unicorn/require-module-attributes': 'error',
