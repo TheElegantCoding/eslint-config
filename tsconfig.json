@@ -39,10 +39,6 @@
     "isolatedModules": true,
     "skipLibCheck": true
   },
-  "include": [
-    "src/**/*.ts",
-    "eslint.config.js",
-    "tsup.config.ts"
-  ],
+  "include": ["src/**/*", "eslint.config.js"],
   "exclude": ["node_modules", "dist"]
 }
