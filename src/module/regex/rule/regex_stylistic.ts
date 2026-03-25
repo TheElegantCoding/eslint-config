@@ -1,17 +1,12 @@
 import type { Linter } from 'eslint';
 
-const regexStylisticRule: Linter.RulesRecord =
-{
-  'regex/letter-case':
-  [
-    'error',
-    {
-      caseInsensitive: 'lowercase',
-      controlEscape: 'lowercase',
-      hexadecimalEscape: 'lowercase',
-      unicodeEscape: 'lowercase'
-    }
-  ],
+const regexStylisticRule: Linter.RulesRecord = {
+  'regex/letter-case': ['error', {
+    caseInsensitive: 'lowercase',
+    controlEscape: 'lowercase',
+    hexadecimalEscape: 'lowercase',
+    unicodeEscape: 'lowercase'
+  }],
   'regex/match-any': 'error',
   'regex/no-useless-escape': 'error',
   'regex/no-useless-non-capturing-group': 'error',
