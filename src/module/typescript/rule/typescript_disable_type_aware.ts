@@ -1,7 +1,6 @@
 import type { Linter } from 'eslint';
 
-const typescriptDisableTypeAware: Linter.RulesRecord =
-{
+const typescriptDisableTypeAware: Linter.RulesRecord = {
   'ts/await-thenable': 'off',
   'ts/consistent-return': 'off',
   'ts/consistent-type-exports': 'off',
