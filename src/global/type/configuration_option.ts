@@ -1,8 +1,8 @@
-type ConfigurationOption =
-{
+type ConfigurationOption = {
   readonly yml?: boolean;
   readonly html?: boolean;
   readonly json?: boolean;
+  readonly regex?: boolean;
   readonly solid?: boolean;
   readonly astro?: boolean;
   readonly ignore?: string[];
