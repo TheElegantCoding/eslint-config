@@ -15,13 +15,8 @@ const typescript: Linter.Config[] = [{
   languageOptions: {
     parser: parserTs,
     parserOptions: {
-      projectService: true,
-      sourceType: 'module',
-      allowDefaultProject: [
-        'eslint.config.js',
-        'vite.config.ts',
-        'astro.config.mjs'
-      ]
+      project: './tsconfig.json',
+      sourceType: 'module'
     }
   },
   name: `${PACKAGE_NAME}/typescript`,
