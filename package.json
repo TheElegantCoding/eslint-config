@@ -1,14 +1,17 @@
 {
-  "name": "@universal/eslint-config",
+  "name": "eslint-config-universal-code",
   "description": "⚙️ Eslint configuration for help you to identify and fix these errors before they cause problems in your code. It can also help you to develop good coding habits that will make your code easier to maintain in the long run.",
   "author": {
     "name": "Luis Monsalve <TheElegantCoding>",
     "email": "luismonsalve1941@gmail.com"
   },
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheElegantCoding/eslint-config.git"
+    "url": "git+https://github.com/TheElegantCoding/eslint-config-universal-code.git"
   },
   "keywords": [
     "eslint",
