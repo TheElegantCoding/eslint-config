@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-elegant-coding",
+  "name": "@universal/eslint-config",
   "description": "⚙️ Eslint configuration for help you to identify and fix these errors before they cause problems in your code. It can also help you to develop good coding habits that will make your code easier to maintain in the long run.",
   "author": {
     "name": "Luis Monsalve <TheElegantCoding>",
@@ -8,7 +8,7 @@
   "version": "10.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheElegantCoding/eslint-config-elegant-coding.git"
+    "url": "git+https://github.com/TheElegantCoding/eslint-config.git"
   },
   "keywords": [
     "eslint",
