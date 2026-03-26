@@ -1,3 +1,3 @@
-const PACKAGE_NAME = 'Luis';
+const PACKAGE_NAME = 'universal';
 
 export { PACKAGE_NAME };
