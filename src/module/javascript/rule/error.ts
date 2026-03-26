@@ -87,13 +87,13 @@ const error: Linter.RulesRecord = {
       'req',
       'request',
       'res',
+      'node',
       'response',
       '$scope',
       'staticContext'
     ],
     props: true
   }],
-  'no-plusplus': 'error',
   'no-promise-executor-return': 'error',
   'no-proto': 'error',
   'no-prototype-builtins': 'error',
