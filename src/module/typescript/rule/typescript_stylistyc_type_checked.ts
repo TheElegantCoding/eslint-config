@@ -5,7 +5,6 @@ import type { Linter } from 'eslint';
 const typescriptStylisticTypeChecked: Linter.RulesRecord = {
   'dot-notation': 'off',
   'ts/dot-notation': style['dot-notation'] ?? 'off',
-  'ts/non-nullable-type-assertion-style': 'error',
   'ts/prefer-nullish-coalescing': ['error', {
     ignoreConditionalTests: true,
     ignoreTernaryTests: false,
