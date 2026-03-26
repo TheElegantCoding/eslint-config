@@ -15,11 +15,6 @@ const typescriptStrictTypedChecked: Linter.RulesRecord = {
   'ts/no-duplicate-type-constituents': 'error',
   'ts/no-floating-promises': 'error',
   'ts/no-for-in-array': 'error',
-  'ts/strict-boolean-expressions': ['error', {
-    allowString: false,
-    allowNumber: false,
-    allowNullableObject: true
-  }],
   'ts/no-implied-eval': error['no-implied-eval'] ?? 'off',
   'ts/no-meaningless-void-operator': 'error',
   'ts/no-misused-promises': ['error', {
