@@ -17,11 +17,6 @@ const astroOverride: Linter.Config[] = [
     }
   },
   {
-    files: ['astro.config.mjs'],
-    name: `${PACKAGE_NAME}/astro/import/config`,
-    rules: { 'import/no-anonymous-default-export': 'off' }
-  },
-  {
     files: [
       '**/pages/*.astro',
       '**/pages/**/*.astro',
