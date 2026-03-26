@@ -1,9 +1,10 @@
 import { PACKAGE_NAME } from '@global/constant/package_name';
+
 import type { Linter } from 'eslint';
 
 const jsonOverride: Linter.Config[] = [{
   files: ['**/package.json'],
-  name: `${PACKAGE_NAME}/json:sort-package-json`,
+  name: `${PACKAGE_NAME}/json/sort-package-json`,
   rules: {
     'json/sort-array-values': ['error', { order: { type: 'asc' }, pathPattern: '^files$' }],
     'json/sort-keys': [
@@ -78,7 +79,7 @@ const jsonOverride: Linter.Config[] = [{
   }
 }, {
   files: ['**/tsconfig.json', '**/tsconfig.*.json'],
-  name: `${PACKAGE_NAME}/json:sort-tsconfig`,
+  name: `${PACKAGE_NAME}/json/sort-tsconfig`,
   rules: {
     'json/sort-keys': [
       'error',
