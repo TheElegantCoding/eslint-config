@@ -1,4 +1,5 @@
 import { PACKAGE_NAME } from '@global/constant/package_name';
+
 import type { Linter } from 'eslint';
 
 const typescriptOverrides: Linter.Config[] = [
