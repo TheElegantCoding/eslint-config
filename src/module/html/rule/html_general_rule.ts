@@ -1,4 +1,5 @@
 import { INDENT } from '@global/constant/format_rules';
+
 import type { Linter } from 'eslint';
 
 const htmlGeneralRule: Linter.RulesRecord = {
