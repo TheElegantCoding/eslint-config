@@ -18,7 +18,7 @@ const stylisticGeneralRule: Linter.RulesRecord = {
   'style/comma-spacing': ['error', { after: true, before: false }],
   'style/comma-style': ['error', 'last'],
   'style/computed-property-spacing': 'error',
-  'style/curly-newline': ['error', { minElements: 3 }],
+  'style/curly-newline': ['error', { minElements: 3, consistent: true }],
   'style/dot-location': ['error', 'property'],
   'style/exp-jsx-props-style': ['error', { singleLine: { maxItems: 3 } }],
   'style/exp-list-style': ['error', { singleLine: { maxItems: 3 } }],
