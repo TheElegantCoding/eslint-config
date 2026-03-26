@@ -1,8 +1,9 @@
 import {
-  COMPLEXITY,
   MAX_DEPTH,
+  COMPLEXITY,
   MAX_STATEMENTS
 } from '@global/constant/format_rules';
+
 import type { Linter } from 'eslint';
 
 const bestPractice: Linter.RulesRecord = {
