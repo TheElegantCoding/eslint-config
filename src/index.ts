@@ -24,7 +24,7 @@ const eslintSetup = (option: ConfigurationOption, override: Linter.Config | Lint
     fileIgnore(option.ignore),
     javascript,
     node,
-    imports
+    ...imports
   );
 
   if (option.stylistic ?? false) { config.push(stylistic); }
