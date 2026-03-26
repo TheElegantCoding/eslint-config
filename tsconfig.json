@@ -39,6 +39,6 @@
     "isolatedModules": true,
     "skipLibCheck": true
   },
-  "include": ["src/**/*", "eslint.config.js"],
+  "include": ["./**/*.ts", "./**/*.js"],
   "exclude": ["node_modules", "dist"]
 }
