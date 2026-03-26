@@ -103,7 +103,7 @@ The configuration enforces consistent coding style and best practices, making yo
 <h3><img src="./asset/icon/bun.svg" width="24px" align="center" /> Bun</h3>
 
 ```bash
-bun i -D @universal/eslint-config
+bun i -D eslint-config-universal-code
 ```
 
 <h3><img src="./asset/icon/npm.svg" width="24px" align="center" /> Npm</h3>
@@ -141,7 +141,7 @@ yarn i -D eslint-config-elegant-coding
 Create an `eslint.config.js` file in your root and add the following:
 
 ```ts
-  import eslintConfig from '@universal/eslint-config';
+  import eslintConfig from 'eslint-config-universal-code';
 
   export default eslintConfig();
 ```
@@ -163,7 +163,7 @@ Create an `eslint.config.js` file in your root and add the following:
 Extra settings that can be added.
 
 ```ts
-  import eslintConfig from '@universal/eslint-config';
+  import eslintConfig from 'eslint-config-universal-code';
 
   export default eslintConfig({
     // This line enables ESLint rules for YAML files.
