@@ -54,7 +54,7 @@ const bestPractice: Linter.RulesRecord = {
     skipComments: true
   }],
   'max-nested-callbacks': ['error', { max: 3 }],
-  'max-params': ['error', { max: 4 }],
+  'max-params': ['error', { max: 10 }],
   'max-statements': ['error', MAX_STATEMENTS],
   'object-shorthand': [
     'error',
